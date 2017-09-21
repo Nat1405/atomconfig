@@ -1,0 +1,21 @@
+"*":
+  core:
+    disabledPackages: [
+      "github"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+    invisibles: {}
+  "exception-reporting":
+    userId: "c1207d3e-b9c5-79ba-0c9e-d4ffd4bfd27e"
+  "linter-ui-default":
+    panelHeight: 102
+  welcome:
+    showOnStartup: false
+"linter-javac":
+  additionalClasspaths: "C:UsersJohnDoe"
+  additionalJavacOptions: "-verbose -d C:java-class-cache"
+  classpathFilename: ".acme-inc-classpaths"
+  javaExecutablePath: "javac"
+  javacArgsFilename: "acme-inc-argfile"
